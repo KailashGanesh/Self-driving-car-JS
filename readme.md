@@ -4,7 +4,7 @@
 
 ### ScreenShot 
 
-![screenshot](/screenshot.png)
+![screenshot](Img/screenshot.png)
 
 ### The Goal
 
