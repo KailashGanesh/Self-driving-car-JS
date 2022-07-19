@@ -19,9 +19,18 @@
 <body>
     <canvas class="carCanvas" id="carCanvas"></canvas>
     <div id="verticalButtons" class="verticalButtons">
-        <button onclick="save()">💾</button>
-        <button onclick="discard()">🗑</button>
-        <button onclick="loadFromGithub()">♽</button>
+        <div class="tooltip">
+            <span class="tooltiptext">Save best brain</span>
+            <button onclick="save()">💾</button>
+        </div>
+        <div class="tooltip">
+            <span class="tooltiptext">Discard current brain</span>
+            <button onclick="discard()">🗑</button>
+        </div>
+        <div class="tooltip">
+            <span class="tooltiptext">Load trained best brain from github</span>
+            <button onclick="loadFromGithub()">♽</button>
+        </div>
     </div>
     <canvas class="networkCanvas" id="networkCanvas"></canvas>
 </body>
