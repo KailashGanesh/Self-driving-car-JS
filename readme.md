@@ -41,6 +41,9 @@ this.x -= Math.sin(this.angle)*this.speed;
 this.y -= Math.cos(this.angle)*this.speed;
 ```
 
+- I have been using Vim and NVim all this time, that I did't know Vs code has a "Rename symbol" feature which will rename a every instance of a variable across files. you can also use the shortcut F2 (the same one in windows file explorer to rename files and folders)
+- The start out simple and build on it approach hits me again, the way Radu Mariescu makes things look so easy in the course, as hes making a simple version first and then making it more complicated and the forethought that goes into thinking this way is fascinating and defiantly something I want to implement in my own work flow 
+
 
 ### Continued development
 
