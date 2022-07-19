@@ -88,6 +88,19 @@ function discard(){
     localStorage.removeItem("bestBrain");
 }
 
+async function loadFromGithub(){
+    const url = "https://raw.githubusercontent.com/KailashGanesh/Self-driving-car-JS/main/myBestCar.json"
+    const response = await fetch(url);
+    const data = await response.json();
+    localStorage.setItem("bestBrain",
+        JSON.stringify(data)
+    );
+    // console.log(data); 
+    // console.log(bestCar.brain);
+    location.reload();
+    return false;
+}
+
 function generateCars(N){
     const cars = [];
     for (let i = 1; i<=N; i++){
