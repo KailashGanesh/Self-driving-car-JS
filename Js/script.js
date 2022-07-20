@@ -13,7 +13,7 @@ const road = new Road(carCanvas.width / 2, carCanvas.width * 0.9);
 const mutationDropDown =  document.getElementById('mutationAmount');
 const carCountDropDown =  document.getElementById('carCount');
 
-let N = 1;
+let N = 10;
 let mutation = 0.1;
 if (localStorage.getItem("carCount")){
     N = localStorage.getItem("carCount");
