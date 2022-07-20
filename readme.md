@@ -13,6 +13,7 @@ Build a Road and car simulation, build a neural network using genetic algorithm 
 - **Save brain** : running the simulation will show you which car (and brain) has traveled the furthest and performers the best; You can save this brain so when you reload the page all new cars (with mutations) will be based on the saved brain. one car will have the exact same brain as the saved brain. 
 - **Discard brain** : Clicking this button will discard the saved brain and start from scratch.
 - **Load brain from github** : I have run this simulation enough to get a brain that can overtake most traffic. click this button to start where I left off. it'll load the best brain from a json file I have on the github repo.
+- **select amount of mutation and number of cars** : Two drop downs are given to select the number of cars to generate and amount of mutation between the previous saved brain and new brains.
 - **Traffic generation** : Traffic is generated as the car moves forward to give it new obstacles to tackle.
 - **Visualization** : visualizes the neural network workings and the sensors of the best car.
 
